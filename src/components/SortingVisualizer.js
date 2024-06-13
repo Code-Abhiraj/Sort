@@ -8,7 +8,7 @@ const SortingVisualizer = ({ array, darkMode }) => (
         className="array-bar"
         key={idx}
         style={{
-          height: `${value / 1.3}px`,
+          height: `${value/1.1}px`,
           backgroundColor: `hsl(${value % 360}, 100%, ${darkMode ? '50%' : '25%'})`,
         }}
       ></Box>
